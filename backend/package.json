@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is recipe API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon sever.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obinnajude/restapi.git"
+  },
+  "author": "obinna jude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Obinnajude/restapi/issues"
+  },
+  "homepage": "https://github.com/Obinnajude/restapi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
